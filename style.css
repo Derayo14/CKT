@@ -1,0 +1,222 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Roboto:wght@300&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:'Bubblegum Sans', sans-serif;;
+}
+
+section {
+    display: flex;
+    background-color: whitesmoke;
+    padding: 2em 0;
+}
+
+
+.first-section,
+.third-section,
+.fifth-section {
+    padding-left: 8em;
+
+}
+
+@keyframes slideleft {
+    0%{
+        background: #000;
+        transform: translateX(-120%);
+    }
+    10%{
+    background-color: red;
+    }
+    20%{
+        background-color: purple;
+        }
+    100%{
+        background: yellow;
+        transform: translateX(0);
+    }
+}
+.container {
+    width: 70%;
+    /* height: 80vh; */
+    background-color: white;
+    border-radius: 15px;
+    padding: 2em 4em;
+   
+
+}
+
+.bgColor {
+    background-color: #057DF4;
+    color: white;
+    float: right;
+    position: relative;
+
+}
+
+.shadow {
+    box-shadow: 10px 10px 6px 10px #f1f0f5;
+    position: relative;
+}
+
+.second-Section,
+.forth-section {
+
+    display: flex;
+    justify-content: right;
+    padding-right: 8em;
+}
+
+h1 {
+    font-size: 60px;
+    margin-bottom: 25px;
+}
+
+p {
+    font-size: 30px;
+}
+
+.second-Section ul li,
+.fifth-section ul li {
+    font-size: 20px;
+    margin-bottom: 1em;
+}
+
+.first-section .container {
+    border: 3px solid #057DF4;
+    animation: slideleft 1s ease-in;
+}
+
+.third-section .container {
+    border: 3px solid orangered;
+}
+
+.fifth-section .container {
+    border: 3px solid #057DF4;
+}
+
+button {
+    background-color: orangered;
+    color: white;
+    outline: none;
+    border: none;
+    padding: 1em 3em;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.icon {
+    width: 2em;
+    height: 2em;
+    /* background-color: black; */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputContainer {
+    display: flex;
+    padding: 0.5em;
+    border: 1px solid gray;
+    gap: 1em;
+    align-items: center;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.formContainer {
+    /* background-color: #057DF4; */
+    background-color: whitesmoke;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    background-color: #057DF4;
+    /* width: 50%; */
+    padding: 2em;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    border: 1px solid #057DF4;
+}
+
+.inputContainer input {
+    padding: 0.5em 0;
+    outline: none;
+    border: none;
+    width: 20em;
+}
+
+form h2 {
+    text-align: center;
+    font-size: 35px;
+}
+
+.signUpBtn {
+    padding: 10px 20px;
+}
+
+button:hover {
+    background-color: #f1f0f5;
+    color: orangered;
+}
+
+form a {
+    /* text-decoration: none; */
+    color: white;
+}
+.noAccount{
+    color: white;
+    font-size: 18px;
+}
+.happy{
+    position: absolute;
+    width: 17%;
+    right: 15%;
+ 
+}
+.smirking{
+    position: absolute;
+    width: 18%;
+    right: 35%;
+    top: 0;
+    
+}
+.ThinkingSmiley{
+    position: absolute;
+    width: 18%;
+    right: 5%;
+    
+}
+.thinking{
+    position: absolute;
+    width: 16%;
+    right: 29%;
+}
+.menu{
+    /* width: 10%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.logo{
+    width: 10%;
+    border-radius: 10px;
+}
+.WarningPopUp{
+    color: red;
+    font-size: 16px;
+    background-color: white;
+    padding: 2px;
+    display: none;
+    /* text-align: center; */
+}

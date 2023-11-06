@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Page</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <main class="formContainer">
+        <form>
+            <h2>Register</h2>
+            <div class="inputContainer">
+                <div class="icon"><i class="fa-solid fa-user"></i></div>
+            <input id="FullName" type="text" placeholder="Full Name(e.g John Gidado Segun)">
+        </div>
+        <p class="WarningPopUp" id="WarningPopUp"></p>
+            <div class="inputContainer">
+                <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+            <input id="E-mail" type="email" placeholder="E-mail(e.g xxx@gmail.com)">
+            </div>
+            <div class="inputContainer">
+                <div class="icon"><i class="fa-solid fa-phone"></i></div>
+            <input id="Phone-number" type="text" placeholder="Phone-number">
+            </div>
+            <div class="inputContainer">
+                <div class="icon"><i class="fa-solid fa-lock"></i></div>
+            <input id="Pwd" type="password" placeholder="Password">
+            </div>
+            <div class="inputContainer">
+                <div class="icon"><i class="fa-solid fa-lock"></i></div>
+            <input id="Cpwd" type="password" placeholder="Confirm Password">
+            </div>
+            <div>
+                <button  class="signUpBtn" id="signUpBtn">Sign Up</button><br><br>
+                Already have an account?  <a href="login.html">Click here</a>
+            </div>
+        </form>
+    </main>
+</body>
+<script src="../scripts/app.js"></script>
+</html>
