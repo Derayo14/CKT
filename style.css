@@ -1,15 +1,16 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family:'Bubblegum Sans', sans-serif;;
+    background: transparent;
+    font-family:'Abeezee';
 }
 
 section {
     display: flex;
-    background-color: whitesmoke;
+    background-color: transparent;
     padding: 2em 0;
 }
 
@@ -21,22 +22,7 @@ section {
 
 }
 
-@keyframes slideleft {
-    0%{
-        background: #000;
-        transform: translateX(-120%);
-    }
-    10%{
-    background-color: red;
-    }
-    20%{
-        background-color: purple;
-        }
-    100%{
-        background: yellow;
-        transform: translateX(0);
-    }
-}
+
 .container {
     width: 70%;
     /* height: 80vh; */
@@ -121,26 +107,44 @@ button {
 .inputContainer {
     display: flex;
     padding: 0.5em;
-    border: 1px solid gray;
     gap: 1em;
+    outline: none;
     align-items: center;
     border-radius: 5px;
     background-color: white;
+    border: 1px solid gray;
+    
 }
+.inputContainer:focus-within{
+    border: 2px solid black;
+}
+.borderRed{
+    border: 2px solid red;
+}
+.inputContainer input {
+    padding: 0.5em 0;
+    outline: none;
+    border: none;
+    width: 20em;
+}
+
 
 .formContainer {
     /* background-color: #057DF4; */
-    background-color: whitesmoke;
+    background-color: transparent;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 3em 2em;
+
+    
 }
 
 form {
     background-color: #057DF4;
     /* width: 50%; */
-    padding: 2em;
+    padding: 1em 1em;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -148,12 +152,6 @@ form {
     border: 1px solid #057DF4;
 }
 
-.inputContainer input {
-    padding: 0.5em 0;
-    outline: none;
-    border: none;
-    width: 20em;
-}
 
 form h2 {
     text-align: center;
@@ -213,10 +211,13 @@ form a {
     border-radius: 10px;
 }
 .WarningPopUp{
-    color: red;
-    font-size: 16px;
-    background-color: white;
-    padding: 2px;
+    font-size: 12px;
+    padding: 0px;
     display: none;
-    /* text-align: center; */
+}
+
+.errCont{
+    color: red;
+    background-color: white;
+
 }
