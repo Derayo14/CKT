@@ -1,15 +1,18 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
+
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family:'Abeezee';
+    font-family: 'Abeezee';
 }
-body{
-        background: #cccccc;
+
+body {
+    background: #cccccc;
 
 }
+
 section {
     display: flex;
     background-color: transparent;
@@ -31,7 +34,7 @@ section {
     background-color: white;
     border-radius: 15px;
     padding: 2em 4em;
-   
+
 
 }
 
@@ -40,6 +43,7 @@ section {
     color: white;
     float: right;
     position: relative;
+
 
 }
 
@@ -58,16 +62,19 @@ section {
 
 h1 {
     font-size: 35px;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
 }
 
 p {
     font-size: 30px;
 }
 
+.Introduction {
+    margin-left: 4%
+}
+
 .second-Section ul li,
 .fifth-section ul li {
-    font-size: 20px;
     margin-bottom: 1em;
 }
 
@@ -115,14 +122,17 @@ button {
     border-radius: 5px;
     background-color: white;
     border: 1px solid gray;
-    
+
 }
-.inputContainer:focus-within{
+
+.inputContainer:focus-within {
     border: 2px solid black;
 }
-.borderRed{
+
+.borderRed {
     border: 2px solid red;
 }
+
 .inputContainer input {
     padding: 0.5em 0;
     outline: none;
@@ -140,7 +150,7 @@ button {
     align-items: center;
     padding: 3em 2em;
 
-    
+
 }
 
 form {
@@ -173,53 +183,62 @@ form a {
     /* text-decoration: none; */
     color: white;
 }
-.noAccount{
+
+.noAccount {
     color: white;
     font-size: 18px;
 }
-.happy{
+
+.happy {
     position: absolute;
     width: 17%;
     right: 5%;
-    top:2%;
- 
+    top: 2%;
+
 }
-.smirking{
+
+.smirking {
     position: absolute;
-    width: 18%;
+    width: 12%;
     right: 35%;
     top: 0;
-    
+
 }
-.ThinkingSmiley{
+
+.ThinkingSmiley {
     position: absolute;
-    width: 18%;
+    width: 16%;
     right: 5%;
-    
+    top: 0%;
+
 }
-.thinking{
+
+.thinking {
     position: absolute;
     width: 16%;
     right: 29%;
 }
-.menu{
+
+.menu {
     /* width: 10%; */
     display: flex;
     justify-content: center;
     align-items: center;
 
 }
-.logo{
+
+.logo {
     width: 10%;
     border-radius: 10px;
 }
-.WarningPopUp{
+
+.WarningPopUp {
     font-size: 12px;
     padding: 0px;
     display: none;
 }
 
-.errCont{
+.errCont {
     color: red;
     background-color: white;
 
