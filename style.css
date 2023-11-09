@@ -41,16 +41,13 @@ section {
 }
 .cont img{
     border-radius: 5px;
-    width: 20em;
-    height: 20em;
+    width: 15em;
 }
 .bgColor {
     background-color: #057DF4;
     color: white;
     float: right;
     position: relative;
-
-
 }
 
 .shadow {
@@ -257,6 +254,7 @@ form a {
     padding: 1em;
     border-radius: 10px;
     width: 10em;
+    border: 2px solid #057DF4 ;
 }
 .subCuriCont h1{
     font-size: 20px;;
