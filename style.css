@@ -60,7 +60,7 @@ section {
     padding-right: 8em;
 }
 
-h1 {
+.sectionHeading {
     font-size: 30px;
     margin-bottom: 10px;
 }
@@ -242,4 +242,34 @@ form a {
     color: red;
     background-color: white;
 
+}
+.curriculumContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.firstSubCont{
+  display: flex;
+  gap: 10px;
+}
+/* .seconSubCont{
+
+} */
+.subCuriCont{
+    background-color: rgba(128, 128, 128, 0.192);
+    padding: 1em;
+    border-radius: 10px;
+}
+
+.subCuriCont h1{
+    font-size: 20px;;
+}
+/* .Languages{
+    text-align: center;
+} */
+.Languages img{
+    width: 50%;
+}
+.imagetwo{
+    width: 100px;
 }
