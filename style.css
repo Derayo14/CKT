@@ -12,7 +12,9 @@ body {
     background: #cccccc;
 
 }
-
+/* .menu{
+    background-color: peru;
+} */
 section {
     display: flex;
     background-color: transparent;
@@ -33,6 +35,7 @@ section {
     background-color: white;
     border-radius: 15px;
     padding: 2em 4em;
+    
 }
 .cont{
     display: flex;
@@ -49,12 +52,21 @@ section {
     float: right;
     position: relative;
 }
+.boo{
+    display: flex;
+    justify-content: space-between;
+}
 
 .shadow {
     box-shadow: 10px 10px 6px 10px #f1f0f5;
     position: relative;
 }
-
+.imges1{
+    width: 25%;
+}
+.imges2{
+    width: 90%;
+}
 .second-Section,
 .forth-section {
 
@@ -164,12 +176,34 @@ form {
     border: 1px solid #057DF4;
 }
 
-
 form h2 {
     text-align: center;
     font-size: 35px;
 }
 
+.enrollmentForm{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    justify-content: space-between;
+    
+}
+
+.enrollmentFormContainer{
+    background-color: #057DF4;
+    padding: 1em 1em;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    border: 1px solid orangered;
+    /* margin: 3em; */
+
+}
+
+.courseCheckbBox{
+     margin-left: 2em; 
+}
 .signUpBtn {
     padding: 10px 20px;
 }
@@ -220,7 +254,7 @@ form a {
 
 .menu {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 
 }
@@ -257,7 +291,7 @@ form a {
     border: 2px solid #057DF4 ;
 }
 .subCuriCont h1{
-    font-size: 20px;;
+    font-size: 20px;
 }
 .Languages {
     margin-top: 1em;
@@ -268,4 +302,306 @@ form a {
 }
 .imagetwo{
     width: 100px;
+}
+footer{
+    background-color: orangered;
+}
+a{
+    text-decoration: none;
+    color: #057DF4;
+    padding: 1em;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    color: black;
+    padding: 3em;
+}
+
+.footer a{
+    color: black;
+}
+
+.CopyrightInfo{
+    padding: 2em;
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+header{
+    /* position: fixed; */
+    /* width: m; */
+  /* float: right;
+  height: 100%;
+   background-color: #282828;  */
+
+   /* padding: 2em;  */
+  
+}
+.dashboardnavs{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 10em;
+}
+.dashboardmenu{
+    display: flex;
+    /* justify-content: space-around; */
+    /* background-color: rgba(255, 68, 0, 0.878); */
+    /* padding-right: 4em; */
+    /* padding-left: 4em; */
+ 
+    
+}
+.dashboardmenu button{
+    color: white;
+}
+.dashboardmenu a{
+    color: white;
+    
+}
+.section{
+    /* position: absolute; */
+    width: 40%;
+    /* float: right; */
+    height: 20%;
+    background-color: white;
+    /* color: white; */
+    padding: 0.5em;
+    /* padding-bottom: 2em; */
+    /* margin-top: 6em; */
+    
+}
+.dashbody{
+    height: 100%;
+     overflow: hidden;
+
+}
+.bold{
+    font-weight: bold;
+}
+.verticalContainers{
+    display: flex;
+    /* flex-direction: row; */
+    background-color: #057DF4;
+    justify-content:space-between    ;
+ /* gap:60em;     */
+ /* padding: 2em;  */
+ margin-top: 2em;
+ margin-left: 15em;
+ margin-right: 15em;
+}
+.dashboardlogo{
+    max-width: 30%;
+    border-radius: 10px;
+
+}
+.dropdown { 
+    display: inline-block; 
+    position: relative; 
+  } 
+  .dropDownBtn{
+    background-color: transparent;
+    border: none;
+    color: #057DF4;
+    
+
+  }
+  .dropDownBtn:hover{
+    color: orangered;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    width: 100%;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+    text-align: start;
+
+}
+.dropdown-content a {
+    display: block;
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+}
+.dropdown-content a:hover {
+    /* color: black; */
+    /* background-color: orangered */
+}
+.LiveClassCont{
+    background-color:rgba(245, 245, 245, 0.431);
+    display: flex;
+    justify-content: space-around;
+    margin: 5em;
+    padding: 8em ;
+    width: 70%;
+}
+.LiveClassContss{
+    /* background-color:rgba(245, 245, 245, 0.431); */
+    /* display: flex;
+    justify-content: space-around; */
+    /* margin: 5em;
+    padding: 8em ;
+    width: 70%; */
+}
+
+.footInfo{
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+.Profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap:2em
+}
+.sectionProfile{
+    gap:5em
+}
+.imgProfile{
+    border-radius: 50%;
+    width: 70%;
+    display: flex;   
+     margin-top: 2em;
+    margin-left: 1em;
+}
+.personalInfo {
+    font-size: 12px;
+    padding-top: 1em;
+    margin-left: 1em;
+
+}
+.topicBoxes{
+    display: flex;
+    /* width: fit-content; */
+    margin: 2em;
+align-items: center;
+    justify-content: space-around;
+    /* gap: 3em; */
+    /* margin: 5em; */
+}
+.topicBoxOne{
+    background-color: whitesmoke;
+    box-shadow: 0px 0px 0px 5px white;
+    border-radius: 5px ;
+    box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.068);
+    /* margin: 1em; */
+   
+    
+}
+.topicBoxOne img{
+    /* max-height: 10em; */
+    max-width: 17em;
+    border-radius: 5px;
+}
+@media screen and (max-width:1024px) {
+    .imges{
+        display: none;
+    }
+    
+}
+@media screen and (max-width:412px) {
+    .menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0px;
+        gap: 0px;
+    }
+    .navs{
+        padding-right:7em;
+    }
+    /* .navs a{
+        padding: 0px;
+    } */
+    .logo{
+        width:11%;
+    }
+    section {
+        display: flex;
+        background-color: transparent;
+        padding: 2em 0;
+    }
+
+    .first-section,
+.third-section,
+.fifth-section {
+    padding-left: 0em;
+
+}
+
+.second-Section,
+.forth-section {
+    padding-right: 0em;
+}
+.shadow {
+margin-left: 3em;
+    padding: 2em 2em;
+    
+}
+.imges1{
+    display: none;
+}
+.imges2{
+    display: none;
+
+}
+
+.sectionHeading {
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+.bgColor {
+   width: 100%;
+    float: none;
+   margin-left: 3em;
+   margin-right: 3em;
+   padding: 2em 2em;
+   
+}
+/* .curriculumContainer{
+    max-width: 10%;
+} */
+.firstSubCont{
+  display: flex;
+  gap: 5px;
+}
+.subCuriCont{
+    background-color: rgba(128, 128, 128, 0.192);
+    padding-right: 0px;
+    padding: 5px;
+    border-radius: 10px;
+    width: 30%;
+    border: 2px solid #057DF4 ;
+}
+.subCuriCont h1{
+    font-size: 15px;
+}
+.Languages {
+    /* margin-top: 1em; */
+   margin-left:15px;
+}
+.cont{
+    
+        padding-right: 10em;
+        
+    }
+    .cont{
+    display: flex;
+    gap: 1em;
+
+}
+.cont img{
+   display: none;
+}
+/* .Languages img{
+    width: 50%;
+} */
 }
